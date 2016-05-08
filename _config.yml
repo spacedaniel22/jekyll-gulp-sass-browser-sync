@@ -1,4 +1,15 @@
 name: Your New Jekyll Site
+title: sPaceDan
+email: your-email@domain.com
+description: UX Development, UI Developer, UX/UI Design, Hardware, Arsenal, Budapest, Beer, Life
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for
+twitter_username: dora
+github_username:  daniel
+
+#Build settings
 markdown: kramdown
-highlighter: rouge # or rouge or null
+highlighter: rouge
+
+# Excludes
 exclude: ["node_modules", "gulpfile.js", "package.json"]
