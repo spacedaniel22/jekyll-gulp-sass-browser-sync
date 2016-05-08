@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
+name: sPaceDan
 title: sPaceDan
-email: your-email@domain.com
+email: daniel.lorincz@icloud.com
 description: UX Development, UI Developer, UX/UI Design, Hardware, Arsenal, Budapest, Beer, Life
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for
@@ -10,6 +10,8 @@ github_username:  daniel
 #Build settings
 markdown: kramdown
 highlighter: rouge
+sass:
+  sass_dir: _assets/_sass
 
 # Excludes
 exclude: ["node_modules", "gulpfile.js", "package.json"]

@@ -12,7 +12,7 @@ html, body {
   height: 100%; }
 
 body {
-  background-color: white;
+  background-color: black;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center; }
@@ -396,4 +396,7 @@ a:visited {
 
 /* Literal.Number.Integer.Long */
 .header {
-  background-color: #9999ff; }
+  background-color: white; }
+
+body {
+  background: white; }
