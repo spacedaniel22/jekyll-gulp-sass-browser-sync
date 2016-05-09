@@ -10,10 +10,10 @@ function displayDate(element) {
   if(mm<10) {
     mm='0'+mm
   }
-  today = mm+'/'+dd+'/'+yyyy;
+  today = mm+'-'+dd+'-'+yyyy;
   element.html(today);
 }
 
 $(document).ready(function(e) {
-  // displayDate($('.header'));
+  displayDate($('.header .extra'));
 });
